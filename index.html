@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickEdit - Tiện ích chỉnh sửa nội dung web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="favicon-32.png" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-flex">
+      <div class="logo">QuickEdit</div>
+      <nav class="nav">
+        <a href="#features">Tính năng</a>
+        <a href="#guide">Hướng dẫn</a>
+        <a href="#faq">FAQ</a>
+        <a href="#download">Tải về</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Chỉnh sửa nội dung trang web dễ dàng</h1>
+      <p>QuickEdit là tiện ích mở rộng giúp bạn thay đổi nội dung website tức thì, không cần lập trình.</p>
+      <a href="quick_edit-extension.zip" class="btn-primary" download>→ Tải QuickEdit ngay</a>
+<a href="https://chromewebstore.google.com/detail/html-quick-edit/fkpebgagpomomfmobmjmpkgehjgnogfk" class="btn-primary" target="_blank" style="margin-left:12px;">Tải từ Chrome Store</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 data-aos="fade-up">Tính năng nổi bật</h2>
+      <div class="feature-grid">
+        <div class="feature-box" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Chỉnh sửa nhanh</h3>
+          <p>Thay đổi nội dung chỉ với 1 cú nhấp chuột.</p>
+        </div>
+        <div class="feature-box" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Dễ sử dụng</h3>
+          <p>Không cần biết lập trình, giao diện thân thiện.</p>
+        </div>
+        <div class="feature-box" data-aos="zoom-in" data-aos-delay="300">
+          <h3>Tiện lợi học tập</h3>
+          <p>Phù hợp cho demo, trình bày, thử nghiệm ý tưởng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guide -->
+  <section id="guide" class="guide" data-aos="fade-up">
+    <div class="container">
+      <h2>Hướng dẫn sử dụng</h2>
+      <ol>
+        <li>Giải nén file <strong>QuickEdit_Extension.zip</strong></li>
+        <li>Mở Chrome → Truy cập <code>chrome://extensions</code></li>
+        <li>Bật <strong>Chế độ nhà phát triển</strong> (Developer Mode)</li>
+        <li>Nhấn <strong>Load unpacked</strong> → chọn thư mục giải nén</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq" data-aos="fade-up">
+    <div class="container">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>QuickEdit có miễn phí không?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Có! Hoàn toàn miễn phí cho mọi người dùng.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Có cần internet để sử dụng?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Không. Sau khi cài đặt, bạn có thể dùng offline.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Dùng được trên trình duyệt nào?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Hiện tại hỗ trợ Chrome và Edge mới (Chromium).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="download" class="cta fancy-cta" data-aos="zoom-in">
+    <div class="container">
+      <h2>Trải nghiệm QuickEdit ngay!</h2>
+      <a href="quick_edit-extension.zip" class="btn-primary" download>Tải xuống tiện ích</a>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+<section class="feedback" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Góp ý cho QuickEdit</h2>
+    <div class="feedback-card">
+      <form action="https://formspree.io/f/mgvkoapj" method="POST">
+        <label for="message">Nội dung góp ý</label>
+        <textarea id="message" name="message" placeholder="Nhập góp ý của bạn..." required></textarea>
+        <button type="submit" class="btn-primary">Gửi góp ý</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Duy Nguyễn 2kar6. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    
+    // Xử lý FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        item.classList.toggle('active');
+        
+        // Đóng các câu hỏi khác khi mở một câu hỏi
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+          if (otherItem !== item && otherItem.classList.contains('active')) {
+            otherItem.classList.remove('active');
+          }
+        });
+      });
+    });
+
+    // Xử lý active nav khi scroll
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav a");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach((section) => {
+        if (window.scrollY >= section.offsetTop - 100) {
+          current = section.getAttribute("id");
+        }
+      });
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${current}`) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
